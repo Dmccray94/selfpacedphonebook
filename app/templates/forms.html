@@ -1,0 +1,16 @@
+<form method="POST">
+    {{form.hidden_tag}}
+    <div class="form-group">
+        <fieldset id="email field">
+            {{ form.email.label }}
+            {{form.email(class = 'form-control', placeholder = 'Place e mail here')}}
+        </fieldset>
+    </div>
+
+        <fieldset id="pass-field">
+            {{for.password.label}}
+            {{form.password(class = 'form-control', placeholder = 'Place Password here')}}
+    </fieldset>
+
+    <!-- submit button area -->
+    {{for.password.label(class = "btn btn-primary btn-block mt-2")}}</form>
